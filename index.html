@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Brian Poole | Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,13 +19,17 @@
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <!-- End #mobile-menu-toggle -->
-    <header>
+    <header class="sticky">
         <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+            <span>Close</span>
+            <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <ul id="menu" class="shadow">
             <li>
-                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
             </li>
             <li>
                 <a href="#experience">Experience</a>
@@ -34,10 +38,7 @@
                 <a href="#education">Education</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
+                <a href="#about">About</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
@@ -48,9 +49,23 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h1>Brian Poole</h1>
+            <h2>Full Stack Web Developer</h2>
+            <a href="#" class="btn-rounded-white" style="font-size: 18px">Download Resume</a>
+            <div class="social2">
+                <ul>
+                    <li>
+                        <a href="https://github.com/bpoole5591" target="_blank">
+                            <i class="fa fa-github" style="color: white; font-size: 30px" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/brian-poole" target="_blank">
+                            <i class="fa fa-linkedin" style="color: white; font-size: 30px" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <!-- End #lead-content -->
 
@@ -64,86 +79,29 @@
         <!-- End #lead-down -->
     </div>
     <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
-                    </p>
-                </div>
-            </div>
-        </div>
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript (ES6+)</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Jest</li>
+            <li>Mocha</li>
+            <li>SQL</li>
+            <li>OAuth</li>
+            <li>Auth0</li>
+            <li>AngularJS</li>
+            <li>Bootstrap</li>
+            <li>Git</li>
+            <li>Passport</li>
+        </ul>
     </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
+    <!-- End #skills -->
 
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
@@ -151,13 +109,15 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/tmcd.png" style="height: 300px; width: 300px" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>theMovieCollectionDatabase</h3>
+                        <h4>React, Redux, Node, Express, PostgreSQL, 0Auth, MongoDB, Stripe, Bootstrap</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            This web application allows you to create and maintain a record of your personal movie collection. It pulls data
+                            from a third-party API that is then displayed with style.
                         </p>
                         <a href="#">View Project</a>
                     </div>
@@ -167,15 +127,17 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/cryptocurrency.png" style="height: 300px; width: 300px" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Cryptocurrency Tracker</h3>
+                        <h4>React, Node, Express</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            This web application utilizes a RESTful API to pull Cryptocurrency values from a third-party API. These values are then rendered
+                            to view with full CRUD capabilities.
                         </p>
-                        <a href="#">View Project</a>
+                            <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -185,43 +147,98 @@
     </div>
     <!-- End #projects -->
 
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-        </ul>
+    <div id="experience">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="September 2015 – September 2016">
+                <h3>Employer Name</h3>
+                <h4>Job Title</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor
+                    nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam
+                    laoreet placerat.
+                </p>
+            </div>
+
+            <div data-date="September 2015 – September 2016">
+                <h3>Employer Name</h3>
+                <h4>Job Title</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor
+                    nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam
+                    laoreet placerat.
+                </p>
+            </div>
+
+            <div data-date="September 2015 – September 2016">
+                <h3>Employer Name</h3>
+                <h4>Job Title</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor
+                    nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam
+                    laoreet placerat.
+                </p>
+            </div>
+        </div>
     </div>
-    <!-- End #skills -->
+    <!-- End #experience -->
+
+    <div id="education" class="background-alt">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>DevMountain</h3>
+            <span class="education-date">March 2018</span>
+            <h4>Web Development Bootcamp</h4>
+            <p>
+               http://www.devmountain.com/web-bootcamp-immersive 
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>BI-LO School of Business</h3>
+            <span class="education-date">October 2011</span>
+            <h4>Unit Management Training</h4>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+                <h3>Greenville Technical School</h3>
+                <span class="education-date">May 2010</span>
+                <h4>Associate's Degree, Supply Chain Management</h4>
+            </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor
+                        nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta
+                        quam laoreet placerat. Donec eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin
+                        ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque
+                        justo tempus pharetra. Vivamus nunc justo, finibus ut nisl sed, euismod rhoncus nulla. Proin sed
+                        magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex
+                        libero aliquet diam, at maximus risus enim non leo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
 
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/brianpooledev@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -237,7 +254,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017 YOUR NAME
+                        Copyright &copy; 2017 Brian Poole
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,19 +265,14 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/bpoole5591" target="_blank">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://linkedin.com/in/brian-poole" target="_blank">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
